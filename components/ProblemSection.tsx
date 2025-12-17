@@ -14,7 +14,7 @@ const ProblemSection: React.FC = () => {
                   <img 
                     src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/drthiago2.jpg" 
                     alt="Dr. Thiago Costa em atendimento" 
-                    className="w-full h-[300px] md:h-auto object-cover bg-slate-200"
+                    className="w-full h-[450px] md:h-auto object-cover object-top bg-slate-200"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-90"></div>
                   
