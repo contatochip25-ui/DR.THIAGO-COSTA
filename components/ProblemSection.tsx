@@ -11,15 +11,16 @@ const ProblemSection: React.FC = () => {
                {/* Image Strategy: Human connection & Real Environment */}
                <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200">
                   {/* 
-                     ATENÇÃO: A imagem deve estar salva como 'dr-thiago-team.jpeg' na pasta pública/raiz 
+                     ATENÇÃO: Usando URL absoluta do GitHub para garantir carregamento
                   */}
                   <img 
-                    src="/dr-thiago-team.jpeg" 
+                    src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/dr-thiago-equipe.jpg" 
                     alt="Equipe Dr. Thiago Costa" 
                     className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 bg-slate-200 min-h-[300px]"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "https://placehold.co/600x400/e2e8f0/475569?text=Foto+Equipe+N%C3%A3o+Encontrada";
+                      // Fallback visual se falhar
+                      target.src = "https://placehold.co/600x400/e2e8f0/475569?text=Carregando+Equipe...";
                     }}
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm p-4 border-t border-slate-100">

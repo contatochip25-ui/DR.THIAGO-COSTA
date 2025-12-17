@@ -14,7 +14,7 @@ const FinalCTA: React.FC = () => {
           <div className="flex justify-center mb-6">
             <div className="p-1 rounded-full bg-gradient-to-tr from-blue-500 to-green-500 shadow-lg">
                 <img 
-                    src="/dr-thiago-hero.jpeg" 
+                    src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/dr-thiago-reconhecimento-jpeg.jpg" 
                     alt="Dr. Thiago Costa" 
                     className="w-20 h-20 rounded-full object-cover object-top border-4 border-white bg-slate-200"
                     onError={(e) => {

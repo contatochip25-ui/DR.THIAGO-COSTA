@@ -54,16 +54,16 @@ const Hero: React.FC = () => {
              {/* Removed rotation for a more solid, serious presentation of the magazine cover */}
              <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-sm lg:max-w-md mx-auto transition-transform duration-500">
                 {/* 
-                   ATENÇÃO: A imagem deve estar salva como 'dr-thiago-hero.jpeg' na pasta pública/raiz
+                   ATENÇÃO: Usando URL absoluta do GitHub fornecida.
                 */}
                 <img 
-                  src="/dr-thiago-hero.jpeg" 
+                  src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/dr-thiago-reconhecimento-jpeg.jpg" 
                   alt="Dr. Thiago Costa - Médico Endocrinologista" 
                   className="w-full h-auto object-cover bg-slate-200 min-h-[300px]"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
-                    target.parentElement!.innerHTML = '<div class="flex items-center justify-center w-full h-64 bg-slate-100 text-slate-400 text-center p-4">Imagem não encontrada.<br/>Verifique se dr-thiago-hero.jpeg está na pasta pública.</div>';
+                    target.parentElement!.innerHTML = '<div class="flex items-center justify-center w-full h-64 bg-slate-100 text-slate-400 text-center p-4">Imagem carregando...<br/>Se demorar, verifique a conexão.</div>';
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-60 pointer-events-none"></div>

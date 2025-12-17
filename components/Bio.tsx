@@ -14,15 +14,15 @@ const Bio: React.FC = () => {
                 <div className="absolute inset-0 bg-blue-600 rounded-xl transform rotate-2 scale-105 opacity-20 group-hover:rotate-1 transition-transform duration-500"></div>
                 <div className="relative w-72 md:w-80 rounded-xl overflow-hidden shadow-2xl border-4 border-blue-800/50">
                     {/* 
-                       ATENÇÃO: A imagem deve estar salva como 'dr-thiago-event.jpeg' na pasta pública/raiz
+                       ATENÇÃO: Usando URL absoluta do GitHub fornecida (Imagem de Reconhecimento).
                     */}
                     <img 
-                        src="/dr-thiago-event.jpeg" 
+                        src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/Reconhecimento-dr-thiago-jpeg.jpg" 
                         alt="Dr. Thiago Costa em evento médico" 
                         className="w-full h-auto object-cover transform transition-transform duration-700 hover:scale-105 bg-blue-800 min-h-[400px]"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
-                          target.src = "https://placehold.co/400x500/1e40af/93c5fd?text=Foto+Evento+N%C3%A3o+Encontrada";
+                          target.src = "https://placehold.co/400x500/1e40af/93c5fd?text=Foto+Evento";
                         }}
                     />
                 </div>
