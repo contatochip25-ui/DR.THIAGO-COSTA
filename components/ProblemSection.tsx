@@ -9,11 +9,11 @@ const ProblemSection: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             
             <div className="order-2 md:order-1 relative group">
-               {/* Imagem da Equipe - Humanização e Estrutura */}
+               {/* Imagem de Contexto/Autoridade */}
                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform transition-transform duration-500 group-hover:scale-[1.01]">
                   <img 
-                    src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/dr-thiago-equipe.jpg" 
-                    alt="Equipe Dr. Thiago Costa" 
+                    src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/drthiago2.jpg" 
+                    alt="Dr. Thiago Costa em atendimento" 
                     className="w-full h-auto object-cover bg-slate-200"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-90"></div>

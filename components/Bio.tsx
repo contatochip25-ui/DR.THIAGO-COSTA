@@ -15,10 +15,10 @@ const Bio: React.FC = () => {
              <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-2xl opacity-30 blur-lg"></div>
                 <div className="relative w-full max-w-md rounded-xl overflow-hidden shadow-2xl border border-white/20">
-                    {/* Imagem do Livro/Prêmio - Dr. Thiago */}
+                    {/* Imagem de Autoridade - Dr. Thiago */}
                     <img 
-                        src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/Reconhecimento-dr-thiago-jpeg.jpg" 
-                        alt="Dr. Thiago Costa recebendo reconhecimento" 
+                        src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/drthiago3.jpg" 
+                        alt="Dr. Thiago Costa em evento médico" 
                         className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
                     />
                 </div>

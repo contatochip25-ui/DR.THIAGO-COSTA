@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
              <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white max-w-sm lg:max-w-md mx-auto transition-transform duration-500 hover:shadow-3xl">
                 {/* Imagem de Autoridade Solo - Dr. Thiago */}
                 <img 
-                  src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/dr-thiago-reconhecimento-jpeg.jpg" 
+                  src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/drthiago1.jpg" 
                   alt="Dr. Thiago Costa - Referência em Endocrinologia" 
                   className="w-full h-auto object-cover bg-slate-200 min-h-[450px]"
                 />
