@@ -31,16 +31,17 @@ const ProblemSection: React.FC = () => {
                 Atenção aos sinais
               </div>
               
+              {/* Headline ajustada para evitar flag de "Atributos Pessoais" no Meta Ads */}
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 leading-tight">
-                Você sente que seu corpo joga contra você?
+                Sinais de que o metabolismo precisa de ajustes
               </h2>
               
               <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
                 <p>
-                  A maioria das pessoas acredita que não emagrece por falta de força de vontade. <strong className="text-slate-900">Isso é uma mentira</strong> que te contaram.
+                  Muitas pessoas acreditam que a dificuldade em emagrecer é apenas falta de força de vontade. <strong className="text-slate-900">Essa é uma visão ultrapassada.</strong>
                 </p>
                 <p>
-                  Se o seu metabolismo estiver "travado" por desequilíbrios hormonais ou inflamação, nenhuma dieta restritiva vai funcionar a longo prazo. Você apenas gera mais estresse para o organismo.
+                  Quando o metabolismo enfrenta desequilíbrios hormonais ou inflamação, dietas restritivas tendem a não funcionar a longo prazo, gerando apenas mais estresse para o organismo.
                 </p>
                 
                 <div className="bg-white p-6 rounded-xl border-l-4 border-blue-600 shadow-sm mt-8">
@@ -54,7 +55,7 @@ const ProblemSection: React.FC = () => {
                 </div>
 
                 <p className="text-sm text-slate-500 mt-4">
-                  Neste grupo, vamos quebrar mitos e te mostrar o caminho da medicina baseada em evidências.
+                  Neste grupo, vamos quebrar mitos e apresentar o caminho da medicina baseada em evidências.
                 </p>
               </div>
             </div>

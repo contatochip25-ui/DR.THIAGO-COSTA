@@ -3,29 +3,31 @@ import { ArrowRight, MessageCircle, Lock, Users } from 'lucide-react';
 
 const FinalCTA: React.FC = () => {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
-        {/* Background decorative blob */}
-      <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-green-50 rounded-full mix-blend-multiply filter blur-3xl opacity-60 pointer-events-none"></div>
-      <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-50 rounded-full mix-blend-multiply filter blur-3xl opacity-60 pointer-events-none"></div>
+    <section className="py-24 bg-white relative">
+        {/* Background decorative blob - Wrapper isolado com overflow hidden para não cortar o avatar */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-green-50 rounded-full mix-blend-multiply filter blur-3xl opacity-60"></div>
+          <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-50 rounded-full mix-blend-multiply filter blur-3xl opacity-60"></div>
+      </div>
 
       <div className="container mx-auto px-4 relative z-10">
         
         {/* Wrapper Relative para posicionamento do Avatar Flutuante */}
-        <div className="max-w-4xl mx-auto relative">
+        <div className="max-w-4xl mx-auto relative mt-12">
 
-            {/* Avatar - Posicionado fora do Card para garantir que não seja cortado */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 -top-12 z-20">
-                <div className="p-1.5 rounded-full bg-white shadow-xl">
+            {/* Avatar - Z-Index 50 para garantir prioridade visual total */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 -top-16 z-50">
+                <div className="p-1.5 rounded-full bg-white shadow-2xl">
                     <img 
                         src="https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/drthiagofoto.jpg" 
                         alt="Dr. Thiago Costa" 
-                        className="w-24 h-24 rounded-full object-cover object-top border-4 border-white bg-slate-200"
+                        className="w-28 h-28 rounded-full object-cover object-top border-4 border-white bg-slate-200"
                     />
                 </div>
             </div>
 
             {/* Card Principal */}
-            <div className="bg-white/80 backdrop-blur-xl border border-slate-100 rounded-3xl shadow-2xl p-8 md:p-12 pt-20 text-center relative">
+            <div className="bg-white/90 backdrop-blur-xl border border-slate-100 rounded-3xl shadow-2xl p-8 md:p-12 pt-20 text-center relative z-20">
               
               {/* Top Badge */}
               <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-500 via-green-500 to-blue-500 rounded-t-3xl"></div>
