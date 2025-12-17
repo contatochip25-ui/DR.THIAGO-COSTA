@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import ProblemSection from './components/ProblemSection';
 import WhatToExpect from './components/WhatToExpect';
 import Bio from './components/Bio';
-import Gallery from './components/Gallery';
 import TargetAudience from './components/TargetAudience';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
@@ -34,7 +33,6 @@ const App: React.FC = () => {
         <ProblemSection />
         <WhatToExpect />
         <Bio />
-        <Gallery />
         <TargetAudience />
         <FinalCTA />
       </main>
